@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: tomato;
+background-color: #2c3e50;
+}
+.containar{
+    width: 400px;
+    height: 600px;
+    transform: translate(115%,10%);
+}
+.select_menu{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: tomato;
+    background-color: #34495e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.select_menu_title span{
+    padding-right: 10px;
+    font-size: 30px;
+}
+.select_menu_icon{
+    font-size: 30px;
+}
+#fast_down{
+    transition: 0.5s;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+
+#social_media{
+        margin-top: 30px;
+        height: 320px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: row;
+        align-items: center;
+        justify-content: center;
+        color: tomato;
+        background-color: #34495e;
+        border-radius: 10px;
+        cursor: pointer;
+    
+}
+.fab{
+    font-size: 30px;
+}
+.social span{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.social{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+.social:hover{
+    color: tomato;
+    background-color: #2c3e50;
+}
+.facebook a{
+   color: #3b5999;
+}
+.youtube a{
+    color: #cd201f;
+}
+.instagram a{
+    color: #e4405f;
+}
+.twitter a{
+    color: #55acee;
+}
+.pinterest a{
+    color: #bd081c;
+}
+.whatsapp a{
+    color: #25D366;
+}
+.hide{
+    display: none;
+}
